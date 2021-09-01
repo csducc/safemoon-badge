@@ -1,6 +1,6 @@
 (function() {
   var image = document.createElement("img");
-  document.body.style.position = "relative";
+  window.body.style.position = "relative";
   image.style.position = "fixed";
   var wrapper = document.createElement("a");
   wrapper.setAttribute('href', 'https://safemoon.net');
